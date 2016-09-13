@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <remote name="bucket"
+    fetch="https://bitbucket.org/" />
+
     <remove-project name="CyanogenMod/android_hardware_qcom_bt" />
     <project path="hardware/qcom/bt" name="Xiaomi-Mi4c-CyanogenMod-14/android_hardware_qcom_bt" groups="qcom" revision="staging/cm-14.0" />
 
@@ -20,6 +23,6 @@
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
 
     <!-- Toolchains -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" revision="master" />
 
 </manifest>
