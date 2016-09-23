@@ -25,4 +25,7 @@
     <!-- Toolchains -->
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bucket" revision="master" />
 
+    <!-- msm8994 -->
+    <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
+
 </manifest>
