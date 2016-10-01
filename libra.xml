@@ -7,7 +7,7 @@
     <remove-project name="CyanogenMod/android_bionic" />
 
     <!-- Bionic -->
-    <project path="bionic" name="Xiaomi-Mi4c-CyanogenMod-14/android_bionic" groups="pdk" revision="staging/cm-14.0" />
+    <project path="bionic" name="Xiaomi-Mi4c-CyanogenMod-14/android_bionic" groups="pdk" revision="cm-14.0" />
 
     <!-- Device -->
     <project path="device/xiaomi/libra" name="Xiaomi-Mi4c-CyanogenMod-14/android_device_xiaomi_libra" remote="github" revision="cm-14.0" />
@@ -19,7 +19,7 @@
     <project path="vendor/xiaomi" name="Xiaomi-Mi4c-CyanogenMod-14/proprietary_vendor_xiaomi" remote="github" revision="cm-14.0" />
 
     <!-- QCOM common -->
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="staging/cm-14.0" />
+    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
 
     <!-- STLport -->
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
