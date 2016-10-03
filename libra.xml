@@ -5,9 +5,13 @@
     fetch="https://bitbucket.org/" />
 
     <remove-project name="CyanogenMod/android_bionic" />
+    <remove-project name="CyanogenMod/android_system_sepolicy" />
 
     <!-- Bionic -->
     <project path="bionic" name="Xiaomi-Mi4c-CyanogenMod-14/android_bionic" groups="pdk" revision="cm-14.0" />
+
+    <!-- Sepolicy -->
+    <project path="system/sepolicy" name="Xiaomi-Mi4c-CyanogenMod-14/android_system_sepolicy" groups="pdk" revision="cm-14.0" />
 
     <!-- Device -->
     <project path="device/xiaomi/libra" name="Xiaomi-Mi4c-CyanogenMod-14/android_device_xiaomi_libra" remote="github" revision="cm-14.0" />
