@@ -25,4 +25,7 @@
     <!-- msm8994 -->
     <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" remote="aosp" />
 
+    <!-- boringssl-compat -->
+    <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-14.0" />
+
 </manifest>
