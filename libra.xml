@@ -5,7 +5,7 @@
     fetch="https://bitbucket.org/" />
 
     <!-- Temp fix for camcoder -->
-    <remove-project name="android_frameworks_av" />
+    <remove-project name="CyanogenMod/android_frameworks_av" />
     <project path="frameworks/av" name="Xiaomi-Mi4c-CyanogenMod-14/android_frameworks_av" remote="github" revision="cm-14.0" />
 
     <!-- Device -->
